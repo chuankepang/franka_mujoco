@@ -16,6 +16,7 @@ class TaskStage(Enum):
 class RobotState(Enum):
     MOVING = auto()           # 正在移动
     WAITING = auto()          # 到达目标点停顿
+    END auto()
 
 # ==========================================
 # 2. 轨迹规划模块 (Trajectory Planner)
@@ -67,7 +68,7 @@ class FrankaTaskController:
         self.seq_idx = 0
         self.start_pos = None
         self.target_pos = None
-        self.move_duration = 3.0  # 每个动作耗时3秒
+        self.move_duration = 2.0  # 每个动作耗时3秒
         self.stage_start_time = 0.0
 
     def get_ee_pose(self):
