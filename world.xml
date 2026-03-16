@@ -16,7 +16,55 @@
   <include file="panda.xml" />
   <worldbody>
     <body>
-      <geom type="box" size=".03 .03 .03" pos=".3 0 .03" condim="6" />
+      <geom type="box" size=".2 .35 .06" pos=".4 0 .03" condim="6" />
+      <joint type="free" />
+    </body>
+    <body>
+      <geom type="box" size=".04 .04 .07" pos="-0.2 0.4 .03" rgba="0.4 0.4 0.45 1" condim="6" />
+      <joint type="free" />
+    </body>
+    <body>
+      <geom type="box" size=".04 .04 .07" pos="-0.0 0.4 .03" rgba="0.4 0.4 0.45 1" condim="6" />
+      <joint type="free" />
+    </body>
+    <body>
+      <geom type="box" size=".04 .04 .07" pos="-0.4 0.4 .03" rgba="0.4 0.4 0.45 1" condim="6" />
+      <joint type="free" />
+    </body>
+    <body>
+      <geom type="box" size=".04 .04 .07" pos="-0.2 0.6 .03" rgba="0.4 0.4 0.45 1" condim="6" />
+      <joint type="free" />
+    </body>
+    <body>
+      <geom type="box" size=".04 .04 .07" pos="-0.0 0.6 .03" rgba="0.4 0.4 0.45 1" condim="6" />
+      <joint type="free" />
+    </body>
+    <body>
+      <geom type="box" size=".04 .04 .07" pos="-0.4 0.6 .03" rgba="0.4 0.4 0.45 1" condim="6" />
+      <joint type="free" />
+    </body>
+    <body>
+      <geom type="box" size=".06 .06 .01" pos="-0.2 -0.4 .03" rgba="0.95 0.95 0.9 1" condim="6" />
+      <joint type="free" />
+    </body>
+    <body>
+      <geom type="box" size=".06 .06 .01" pos="-0.0 -0.4 .03" rgba="0.95 0.95 0.9 1" condim="6" />
+      <joint type="free" />
+    </body>
+    <body>
+      <geom type="box" size=".06 .06 .01" pos="-0.4 -0.4 .03" rgba="0.95 0.95 0.9 1" condim="6" />
+      <joint type="free" />
+    </body>
+    <body>
+      <geom type="box" size=".06 .06 .01" pos="-0.2 -0.6 .03" rgba="0.95 0.95 0.9 1" condim="6" />
+      <joint type="free" />
+    </body>
+    <body>
+      <geom type="box" size=".06 .06 .01" pos="-0.0 -0.6 .03" rgba="0.95 0.95 0.9 1" condim="6" />
+      <joint type="free" />
+    </body>
+    <body>
+      <geom type="box" size=".06 .06 .01" pos="-0.4 -0.6 .03" rgba="0.95 0.95 0.9 1" condim="6" />
       <joint type="free" />
     </body>
     <camera name="cam" mode="targetbody" pos="1 1 1" target="panda_hand" />
